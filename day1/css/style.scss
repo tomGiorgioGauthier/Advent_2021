@@ -1,0 +1,18 @@
+.navbar {
+    background-color: green;
+    padding: 4rem;
+    &__day {
+        color: white;
+        padding: 1rem;
+        &__challenge {
+            font-size: 2rem;
+            background-color: green;
+            color: white;
+            outline: 0;
+            border: 0;
+            &:hover {
+                color: red;
+            }
+        }
+    }
+}
